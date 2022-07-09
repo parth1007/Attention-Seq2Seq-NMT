@@ -1,4 +1,5 @@
-## Attention-Seq2Seq-nmt
+## Attention-Seq2Seq-Neural machine translation
+### [GColab Link](https://colab.research.google.com/drive/1g2REw8ub3hNt_kYsTfonKoYo5_XSoMXq?usp=sharing)
 In this project I have created a german to english language translator implemented using Attention mechanism over a Seq2Seq model.
 It uses a bidirectional GRU mechanism for encoder part and unidirectional GRU for decoder. The Attention mechanism applied reduces the problem of information compression by allowing the decoder to "look back" at the input sentence by creating context vectors that are weighted sums of the hidden states of encoder. Attention mechanism calculates the weights for this weighted sum and helps the decoder learn to pay attention to the most useful words in the input sentence.
 
